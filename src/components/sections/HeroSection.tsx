@@ -1,6 +1,6 @@
 
 import { ArrowRight } from 'lucide-react';
-import { Button } from '../ui/Button';
+import { CustomButton as Button } from '../ui/CustomButton';
 import { Link } from 'react-router-dom';
 
 export const HeroSection = () => {

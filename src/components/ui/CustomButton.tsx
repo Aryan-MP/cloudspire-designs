@@ -11,7 +11,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   iconPosition?: 'left' | 'right';
 }
 
-export const Button = ({
+export const CustomButton = ({
   children,
   variant = 'primary',
   size = 'md',
@@ -49,3 +49,6 @@ export const Button = ({
     </button>
   );
 };
+
+// Add an alias export to maintain backward compatibility
+export { CustomButton as Button };
