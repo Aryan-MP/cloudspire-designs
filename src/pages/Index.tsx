@@ -2,7 +2,7 @@
 import { HeroSection } from '@/components/sections/HeroSection';
 import { ServiceCard } from '@/components/sections/ServiceCard';
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground';
-import { Button } from '@/components/ui/Button';
+import { CustomButton as Button } from '@/components/ui/CustomButton';
 import { Link } from 'react-router-dom';
 import { Cloud, Code, DollarSign, Lock, Server, Users, ArrowRight, CheckCircle } from 'lucide-react';
 import { Navbar } from '@/components/layout/Navbar';

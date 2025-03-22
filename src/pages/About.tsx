@@ -2,7 +2,7 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground';
-import { Button } from '@/components/ui/Button';
+import { CustomButton as Button } from '@/components/ui/CustomButton';
 import { Link } from 'react-router-dom';
 import { Award, Book, Briefcase, Database, Globe, Server, Users } from 'lucide-react';
 

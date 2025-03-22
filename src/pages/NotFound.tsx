@@ -2,7 +2,7 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/Button";
+import { CustomButton as Button } from "@/components/ui/CustomButton";
 import { Home } from "lucide-react";
 import { AnimatedBackground } from "@/components/ui/AnimatedBackground";
 import { Navbar } from "@/components/layout/Navbar";

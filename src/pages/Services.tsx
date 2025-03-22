@@ -3,7 +3,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground';
 import { ServiceCard } from '@/components/sections/ServiceCard';
-import { Button } from '@/components/ui/Button';
+import { CustomButton as Button } from '@/components/ui/CustomButton';
 import { Link } from 'react-router-dom';
 import { Cloud, Code, DollarSign, Lock, Shield, Server, Database, BarChart, Zap, Globe, Settings, Cpu } from 'lucide-react';
 

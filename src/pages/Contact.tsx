@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground';
-import { Button } from '@/components/ui/Button';
+import { CustomButton as Button } from '@/components/ui/CustomButton';
 import { toast } from 'sonner';
 import { Mail, Phone, MapPin, Send, MessageSquare, Calendar } from 'lucide-react';
 

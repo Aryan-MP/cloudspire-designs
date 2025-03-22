@@ -1,7 +1,8 @@
+
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground';
-import { Button } from '@/components/ui/Button';
+import { CustomButton as Button } from '@/components/ui/CustomButton';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Code, Server, Layers, Database, ArrowRight, Briefcase, UserPlus, GraduationCap, Users } from 'lucide-react';
 
