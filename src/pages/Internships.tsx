@@ -1,10 +1,9 @@
-
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground';
 import { Button } from '@/components/ui/Button';
 import { Link } from 'react-router-dom';
-import { CheckCircle, Code, Server, Layers, Database, ArrowRight, Briefcase, UserPlus, GraduationCap } from 'lucide-react';
+import { CheckCircle, Code, Server, Layers, Database, ArrowRight, Briefcase, UserPlus, GraduationCap, Users } from 'lucide-react';
 
 const Internships = () => {
   const internshipPrograms = [
